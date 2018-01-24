@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98B18F8C1F16819100D7991C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B18F8B1F16819100D7991C /* AppDelegate.swift */; };
+		98B18F931F16819100D7991C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98B18F921F16819100D7991C /* Assets.xcassets */; };
+		98B18F961F16819100D7991C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98B18F941F16819100D7991C /* LaunchScreen.storyboard */; };
+		98B18FA11F16819100D7991C /* TournamentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B18FA01F16819100D7991C /* TournamentTests.swift */; };
+		98B18FAC1F16819100D7991C /* TournamentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B18FAB1F16819100D7991C /* TournamentUITests.swift */; };
+		98B18FBA1F168A0E00D7991C /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B18FB91F168A0E00D7991C /* RootViewController.swift */; };
+		98D960A72018552A00B52BFE /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D960A62018552A00B52BFE /* API.swift */; };
+		98D960A92018572E00B52BFE /* Tournament.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D960A82018572E00B52BFE /* Tournament.swift */; };
+		98D960AB2018609C00B52BFE /* TournamentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D960AA2018609C00B52BFE /* TournamentTableViewCell.swift */; };
+		98D960AD2018627E00B52BFE /* Participation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D960AC2018627E00B52BFE /* Participation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98B18F9D1F16819100D7991C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98B18F801F16819100D7991C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98B18F871F16819100D7991C;
+			remoteInfo = Time;
+		};
+		98B18FA81F16819100D7991C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98B18F801F16819100D7991C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98B18F871F16819100D7991C;
+			remoteInfo = Time;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		98B18F881F16819100D7991C /* Tournaments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tournaments.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98B18F8B1F16819100D7991C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		98B18F921F16819100D7991C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98B18F951F16819100D7991C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98B18F971F16819100D7991C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98B18F9C1F16819100D7991C /* TournamentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TournamentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98B18FA01F16819100D7991C /* TournamentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentTests.swift; sourceTree = "<group>"; };
+		98B18FA21F16819100D7991C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98B18FA71F16819100D7991C /* TournamentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TournamentsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98B18FAB1F16819100D7991C /* TournamentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentUITests.swift; sourceTree = "<group>"; };
+		98B18FAD1F16819100D7991C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98B18FB91F168A0E00D7991C /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		98D960A62018552A00B52BFE /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		98D960A82018572E00B52BFE /* Tournament.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tournament.swift; sourceTree = "<group>"; };
+		98D960AA2018609C00B52BFE /* TournamentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentTableViewCell.swift; sourceTree = "<group>"; };
+		98D960AC2018627E00B52BFE /* Participation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Participation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98B18F851F16819100D7991C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98B18F991F16819100D7991C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98B18FA41F16819100D7991C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98B18F7F1F16819100D7991C = {
+			isa = PBXGroup;
+			children = (
+				98B18F8A1F16819100D7991C /* Tournaments */,
+				98B18F9F1F16819100D7991C /* TournamentsTests */,
+				98B18FAA1F16819100D7991C /* TournamentsUITests */,
+				98B18F891F16819100D7991C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98B18F891F16819100D7991C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98B18F881F16819100D7991C /* Tournaments.app */,
+				98B18F9C1F16819100D7991C /* TournamentsTests.xctest */,
+				98B18FA71F16819100D7991C /* TournamentsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98B18F8A1F16819100D7991C /* Tournaments */ = {
+			isa = PBXGroup;
+			children = (
+				98B18F8B1F16819100D7991C /* AppDelegate.swift */,
+				98B18FB91F168A0E00D7991C /* RootViewController.swift */,
+				98D960AA2018609C00B52BFE /* TournamentTableViewCell.swift */,
+				98D960A62018552A00B52BFE /* API.swift */,
+				98D960AC2018627E00B52BFE /* Participation.swift */,
+				98D960A82018572E00B52BFE /* Tournament.swift */,
+				98B18F921F16819100D7991C /* Assets.xcassets */,
+				98B18F941F16819100D7991C /* LaunchScreen.storyboard */,
+				98B18F971F16819100D7991C /* Info.plist */,
+			);
+			path = Tournaments;
+			sourceTree = "<group>";
+		};
+		98B18F9F1F16819100D7991C /* TournamentsTests */ = {
+			isa = PBXGroup;
+			children = (
+				98B18FA01F16819100D7991C /* TournamentTests.swift */,
+				98B18FA21F16819100D7991C /* Info.plist */,
+			);
+			path = TournamentsTests;
+			sourceTree = "<group>";
+		};
+		98B18FAA1F16819100D7991C /* TournamentsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				98B18FAB1F16819100D7991C /* TournamentUITests.swift */,
+				98B18FAD1F16819100D7991C /* Info.plist */,
+			);
+			path = TournamentsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98B18F871F16819100D7991C /* Tournaments */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98B18FB01F16819100D7991C /* Build configuration list for PBXNativeTarget "Tournaments" */;
+			buildPhases = (
+				98B18F841F16819100D7991C /* Sources */,
+				98B18F851F16819100D7991C /* Frameworks */,
+				98B18F861F16819100D7991C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tournaments;
+			productName = Time;
+			productReference = 98B18F881F16819100D7991C /* Tournaments.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98B18F9B1F16819100D7991C /* TournamentsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98B18FB31F16819100D7991C /* Build configuration list for PBXNativeTarget "TournamentsTests" */;
+			buildPhases = (
+				98B18F981F16819100D7991C /* Sources */,
+				98B18F991F16819100D7991C /* Frameworks */,
+				98B18F9A1F16819100D7991C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98B18F9E1F16819100D7991C /* PBXTargetDependency */,
+			);
+			name = TournamentsTests;
+			productName = TimeTests;
+			productReference = 98B18F9C1F16819100D7991C /* TournamentsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98B18FA61F16819100D7991C /* TournamentsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98B18FB61F16819100D7991C /* Build configuration list for PBXNativeTarget "TournamentsUITests" */;
+			buildPhases = (
+				98B18FA31F16819100D7991C /* Sources */,
+				98B18FA41F16819100D7991C /* Frameworks */,
+				98B18FA51F16819100D7991C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98B18FA91F16819100D7991C /* PBXTargetDependency */,
+			);
+			name = TournamentsUITests;
+			productName = TimeUITests;
+			productReference = 98B18FA71F16819100D7991C /* TournamentsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98B18F801F16819100D7991C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Phil Larson";
+				TargetAttributes = {
+					98B18F871F16819100D7991C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = C89NSX3CL4;
+						ProvisioningStyle = Automatic;
+					};
+					98B18F9B1F16819100D7991C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = C89NSX3CL4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 98B18F871F16819100D7991C;
+					};
+					98B18FA61F16819100D7991C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = C89NSX3CL4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 98B18F871F16819100D7991C;
+					};
+				};
+			};
+			buildConfigurationList = 98B18F831F16819100D7991C /* Build configuration list for PBXProject "Tournaments" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98B18F7F1F16819100D7991C;
+			productRefGroup = 98B18F891F16819100D7991C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98B18F871F16819100D7991C /* Tournaments */,
+				98B18F9B1F16819100D7991C /* TournamentsTests */,
+				98B18FA61F16819100D7991C /* TournamentsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98B18F861F16819100D7991C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98B18F961F16819100D7991C /* LaunchScreen.storyboard in Resources */,
+				98B18F931F16819100D7991C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98B18F9A1F16819100D7991C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98B18FA51F16819100D7991C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98B18F841F16819100D7991C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D960AB2018609C00B52BFE /* TournamentTableViewCell.swift in Sources */,
+				98D960A92018572E00B52BFE /* Tournament.swift in Sources */,
+				98B18F8C1F16819100D7991C /* AppDelegate.swift in Sources */,
+				98D960A72018552A00B52BFE /* API.swift in Sources */,
+				98B18FBA1F168A0E00D7991C /* RootViewController.swift in Sources */,
+				98D960AD2018627E00B52BFE /* Participation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98B18F981F16819100D7991C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98B18FA11F16819100D7991C /* TournamentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98B18FA31F16819100D7991C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98B18FAC1F16819100D7991C /* TournamentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98B18F9E1F16819100D7991C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98B18F871F16819100D7991C /* Tournaments */;
+			targetProxy = 98B18F9D1F16819100D7991C /* PBXContainerItemProxy */;
+		};
+		98B18FA91F16819100D7991C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98B18F871F16819100D7991C /* Tournaments */;
+			targetProxy = 98B18FA81F16819100D7991C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98B18F941F16819100D7991C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98B18F951F16819100D7991C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98B18FAE1F16819100D7991C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98B18FAF1F16819100D7991C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98B18FB11F16819100D7991C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C89NSX3CL4;
+				INFOPLIST_FILE = Tournaments/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dizm.beeline.Tournaments;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		98B18FB21F16819100D7991C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C89NSX3CL4;
+				INFOPLIST_FILE = Tournaments/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dizm.beeline.Tournaments;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		98B18FB41F16819100D7991C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = C89NSX3CL4;
+				INFOPLIST_FILE = TournamentsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dizm.TournamentsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tournaments.app/Tournaments";
+			};
+			name = Debug;
+		};
+		98B18FB51F16819100D7991C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = C89NSX3CL4;
+				INFOPLIST_FILE = TournamentsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dizm.TournamentsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tournaments.app/Tournaments";
+			};
+			name = Release;
+		};
+		98B18FB71F16819100D7991C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = C89NSX3CL4;
+				INFOPLIST_FILE = TournamentsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dizm.TournamentsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Tournaments;
+			};
+			name = Debug;
+		};
+		98B18FB81F16819100D7991C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = C89NSX3CL4;
+				INFOPLIST_FILE = TournamentsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dizm.TournamentsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Tournaments;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98B18F831F16819100D7991C /* Build configuration list for PBXProject "Tournaments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98B18FAE1F16819100D7991C /* Debug */,
+				98B18FAF1F16819100D7991C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98B18FB01F16819100D7991C /* Build configuration list for PBXNativeTarget "Tournaments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98B18FB11F16819100D7991C /* Debug */,
+				98B18FB21F16819100D7991C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98B18FB31F16819100D7991C /* Build configuration list for PBXNativeTarget "TournamentsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98B18FB41F16819100D7991C /* Debug */,
+				98B18FB51F16819100D7991C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98B18FB61F16819100D7991C /* Build configuration list for PBXNativeTarget "TournamentsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98B18FB71F16819100D7991C /* Debug */,
+				98B18FB81F16819100D7991C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98B18F801F16819100D7991C /* Project object */;
+}
