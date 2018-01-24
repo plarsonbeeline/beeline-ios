@@ -125,7 +125,7 @@ class API {
         let participation: Participation
     }
 
-    func addParticipiation(to tournamentIdentifier: String, with completionHandler: ((Participation?, Swift.Error?)->Void)? = nil) {
+    func addParticipation(to tournamentIdentifier: String, with completionHandler: ((Participation?, Swift.Error?)->Void)? = nil) {
         guard let accessToken = self.accessToken else {
             completionHandler?(nil, Error.unauthorized)
             return

@@ -45,7 +45,7 @@ class RootViewController: UITableViewController {
     }
 
     func addParticipation(to tournament: Tournament, with completionHandler: ((Participation?, Swift.Error?)->Void)? = nil) {
-        API.shared.addParticipiation(to: tournament.identifier) { participation, error in
+        API.shared.addParticipation(to: tournament.identifier) { participation, error in
             if let participation = participation {
                 tournament.participation = participation
             }
